@@ -1,0 +1,120 @@
+body {
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.friend {
+  background-color: black;
+  padding: 2rem;
+}
+
+.friend > h3 {
+  text-transform: uppercase;
+  color: #f4f4f4;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.friend > p {
+  color: #b3b3b3;
+  text-align: center;
+}
+
+.btn-holder {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.sing {
+  text-align: center;
+  margin: auto;
+  padding: 1rem 3rem;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+/* --------------------- */
+
+/* Dynamic Classes */
+
+.red-bg {
+  background-color: rgb(126, 10, 10);
+}
+
+.red-bg h3 {
+  color: white;
+  font-size: 3rem;
+}
+
+.red-bg p {
+  color: white;
+  font-weight: 500;
+}
+
+.blue-bg {
+  background-color: rgb(18, 52, 163);
+}
+
+.blue-bg h3 {
+  color: white;
+  font-size: 3rem;
+}
+
+.blue-bg p {
+  color: white;
+  font-weight: 500;
+}
+
+.green-bg {
+  background-color: rgb(10, 114, 71);
+}
+
+.green-bg h3 {
+  color: white;
+  font-size: 3rem;
+}
+
+.green-bg p {
+  color: white;
+  font-weight: 500;
+}
+
+.black-bg {
+  background-color: black;
+}
+
+.black-bg h3 {
+  color: white;
+  font-size: 3rem;
+}
+
+.black-bg p {
+  color: white;
+  font-weight: 500;
+}
+
+.purple-bg {
+  background-color: rgb(63, 18, 146);
+}
+
+.purple-bg h3 {
+  color: white;
+  font-size: 3rem;
+}
+
+.purple-bg p {
+  color: white;
+  font-weight: 500;
+}
